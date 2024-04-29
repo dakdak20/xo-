@@ -1,0 +1,49 @@
+<style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+.board {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    border: 2px solid orange;
+    background: url('c:\Users\khale\OneDrive\Pictures\R.png');
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid orange;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: gray;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+}
+
+    </style>
